@@ -1,4 +1,4 @@
-# C-Notes
+# C++-Notes
 
 Creating a C++ notes repo which will have C++ notes
 
