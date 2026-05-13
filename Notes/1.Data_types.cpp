@@ -48,7 +48,31 @@ Sr   Integer Types            typical size   range of values
 3.   long double              12 or 16bytes  -18 to 33 decimal digits
 
 
-2. Derived
+2. Derived Data type 
+Derived data type are constructed from built in primitive types(int,char,float,etc)
+to group multiple values or manage memeory addresses directly.
+
+a.Arrays
+An array in C++ is a dervied data type that stores a fixed size,sequential collection
+of elements of the same data type under a single variable name. Instead od declaring
+individual variables like var1, var2, var3 ,you declare a single array variables
+
+b.Pointers
+Pointers in C++ is a derived data type that stores the hardware memory address of 
+another variable rather than a direct value.
+Every variable you create is stored at a specific numeric address in your computer's
+RAM. Pointer allow you to save, pass, and manipulate these addrresses directly.
+
+c.References
+A refrence in C++ is a derived data type that acts as an alias(A permanent alternative
+name or nickname) for an exisiting variable.
+Once a reference is initialized,it shares exact same memory location as the original
+variable. Anything you do to the reference happens directly to the original variable.
+
+d.Function
+fuction is a block of code that is used to execute a block of code multiple times
+with different arguments.
+ex:- int function1(argument1,argument2)
 
 
 3. User defined
